@@ -1,11 +1,10 @@
-`<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_neutral10"
+    android:background="@color/black"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -28,7 +27,7 @@
         android:ems="10"
         android:hint="Input login"
         android:inputType="text"
-        android:textColor="@color/material_dynamic_tertiary100"
+        android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <EditText
@@ -40,7 +39,7 @@
         android:ems="10"
         android:hint="Input email"
         android:inputType="text"
-        android:textColor="@color/material_dynamic_tertiary100"
+        android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <EditText
@@ -52,7 +51,7 @@
         android:ems="10"
         android:hint="Input password"
         android:inputType="textPassword"
-        android:textColor="@color/material_dynamic_tertiary100"
+        android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <Button
